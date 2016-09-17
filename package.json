@@ -1,0 +1,16 @@
+{
+  "name": "manglbrot",
+  "version": "0.1.0",
+  "description": "fractals R fun!",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js -l -o -- -t [ babelify --extensions .es6 ]"
+  },
+  "author": "Natalie Pendragon",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "budo": "^9.2.0",
+    "regl": "^1.2.1"
+  }
+}
